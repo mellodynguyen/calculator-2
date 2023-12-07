@@ -1,6 +1,7 @@
 """CLI application for a prefix-notation calculator."""
 
 from arithmetic import add, subtract, multiply, divide, square, cube, power, mod
+# from arithmetic import *
 
 while True: #can change this true to something else if we want later
     user_input = input("What is your equation > ")
@@ -48,5 +49,7 @@ while True: #can change this true to something else if we want later
         # print(operator)
         # cubes is num1 ** 3 
         result = cube(float(num1))
+
+    
 
     print(result)
